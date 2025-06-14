@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Waste Management</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Smart Waste Management</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Schedule</a>
+      <a href="#">Report</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Today's Collection</h2>
+      <p>📦 Dry Waste — 9:00 AM</p>
+      <p>🗑️ Wet Waste — 2:00 PM</p>
+    </section>
+
+    <section class="card">
+      <h2>Report an Issue</h2>
+      <form>
+        <label for="issue">What's wrong?</label>
+        <textarea id="issue" rows="3" placeholder="e.g. Bin overflow at 5th Street..."></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 CleanCity Initiative</p>
+  </footer>
+</body>
+</html>
